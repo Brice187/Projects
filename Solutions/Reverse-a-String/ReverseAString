@@ -1,0 +1,9 @@
+stringobj="I want to reverse this string!"
+
+def reverse(input):
+    output=""
+    for i in range(len(input)):
+        output += input[len(input)-i-1]
+    return output
+
+print(reverse(stringobj))
